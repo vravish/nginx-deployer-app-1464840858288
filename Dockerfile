@@ -30,7 +30,7 @@ ADD nginx.conf /etc/nginx/
 RUN echo "daemon off;" >> /etc/nginx/nginx.conf
 
 # Expose ports
-EXPOSE 80
+EXPOSE 80 3306
 
 # Set the default command to execute
 # when creating a new container
