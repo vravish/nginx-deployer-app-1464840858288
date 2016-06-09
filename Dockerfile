@@ -7,7 +7,7 @@
 FROM ubuntu:latest
 
 # File Author / Maintainer
-MAINTAINER Maintaner Name
+MAINTAINER Venu
 
 # Install Nginx
 
